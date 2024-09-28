@@ -2,8 +2,7 @@ name: CI Pipeline
 
 on:
   pull_request:
-    branches:
-      - develop
+    types: [opened, ready_for_review]
 
 jobs:
   lint:
