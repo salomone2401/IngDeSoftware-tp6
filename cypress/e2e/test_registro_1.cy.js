@@ -9,7 +9,7 @@ describe('User Registration Test', () => {
 
     cy.get('#firstName').type('ana')
     cy.get('#lastName').type('paula')
-    cy.get('#email').type('anapau@gmail.com')
+    cy.get('#email').type('anapaula@gmail.com')
     cy.get('#password').type('contraseña12345')
 
     cy.intercept('POST', '/users').as('postUser')

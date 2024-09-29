@@ -5,7 +5,7 @@ describe('Acceso de Usuario', () => {
   });
 
   it('no debería permitir a un usuario acceder con credenciales inválidas', () => {
-    const email = 'martincarrion@gmail.com';
+    const email = 'lucianobazaes@gmail.com';
     const password = '123';
 
     cy.get('#email').type(email);
